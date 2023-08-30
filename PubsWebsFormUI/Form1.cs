@@ -1,4 +1,6 @@
 ﻿using PubsBusiness.Concrete;
+using PubsDataAccess.Concrete;
+using PubsDataAccess.Concrete.Hibernate;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -20,7 +22,7 @@ namespace PubsWebsFormUI
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            ProductManager productManager = new ProductManager();
+            ProductManager productManager = new ProductManager(new NhProductDal());
             dgwProduct.DataSource= productManager.GetAll();
         }
     }

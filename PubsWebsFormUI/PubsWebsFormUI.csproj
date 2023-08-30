@@ -95,6 +95,10 @@
       <Project>{2C1AB0C1-0D92-4D75-8C9B-6AA786E96B37}</Project>
       <Name>PubsBusiness</Name>
     </ProjectReference>
+    <ProjectReference Include="..\PubsDataAccess\PubsDataAccess.csproj">
+      <Project>{6E76EB83-4E2E-45F9-906C-B2C7ED884415}</Project>
+      <Name>PubsDataAccess</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PubsEntities\PubsEntities.csproj">
       <Project>{E493D60E-8774-4DD3-9F2A-B1E3FC68725E}</Project>
       <Name>PubsEntities</Name>
