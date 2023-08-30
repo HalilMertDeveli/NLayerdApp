@@ -1,0 +1,6 @@
+C:\Users\halil\c_files\c_visual_studio_folder\NLayeredAppDemo\PubsEntities\bin\Debug\PubsEntities.dll
+C:\Users\halil\c_files\c_visual_studio_folder\NLayeredAppDemo\PubsEntities\bin\Debug\PubsEntities.pdb
+C:\Users\halil\c_files\c_visual_studio_folder\NLayeredAppDemo\PubsEntities\obj\Debug\PubsEntities.csproj.AssemblyReference.cache
+C:\Users\halil\c_files\c_visual_studio_folder\NLayeredAppDemo\PubsEntities\obj\Debug\PubsEntities.csproj.CoreCompileInputs.cache
+C:\Users\halil\c_files\c_visual_studio_folder\NLayeredAppDemo\PubsEntities\obj\Debug\PubsEntities.dll
+C:\Users\halil\c_files\c_visual_studio_folder\NLayeredAppDemo\PubsEntities\obj\Debug\PubsEntities.pdb

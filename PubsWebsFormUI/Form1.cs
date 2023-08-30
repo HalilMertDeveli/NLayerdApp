@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PubsBusiness.Concrete;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,12 @@ namespace PubsWebsFormUI
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            ProductManager productManager = new ProductManager();
+            dgwProduct.DataSource= productManager.GetAll();
         }
     }
 }

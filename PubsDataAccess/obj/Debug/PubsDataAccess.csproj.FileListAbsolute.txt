@@ -1,0 +1,14 @@
+C:\Users\halil\c_files\c_visual_studio_folder\NLayeredAppDemo\PubsDataAccess\obj\Debug\PubsDataAccess.csproj.AssemblyReference.cache
+C:\Users\halil\c_files\c_visual_studio_folder\NLayeredAppDemo\PubsDataAccess\obj\Debug\PubsDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\halil\c_files\c_visual_studio_folder\NLayeredAppDemo\PubsDataAccess\bin\Debug\PubsDataAccess.dll.config
+C:\Users\halil\c_files\c_visual_studio_folder\NLayeredAppDemo\PubsDataAccess\bin\Debug\PubsDataAccess.dll
+C:\Users\halil\c_files\c_visual_studio_folder\NLayeredAppDemo\PubsDataAccess\bin\Debug\PubsDataAccess.pdb
+C:\Users\halil\c_files\c_visual_studio_folder\NLayeredAppDemo\PubsDataAccess\bin\Debug\EntityFramework.dll
+C:\Users\halil\c_files\c_visual_studio_folder\NLayeredAppDemo\PubsDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\halil\c_files\c_visual_studio_folder\NLayeredAppDemo\PubsDataAccess\bin\Debug\PubsEntities.dll
+C:\Users\halil\c_files\c_visual_studio_folder\NLayeredAppDemo\PubsDataAccess\bin\Debug\PubsEntities.pdb
+C:\Users\halil\c_files\c_visual_studio_folder\NLayeredAppDemo\PubsDataAccess\bin\Debug\EntityFramework.xml
+C:\Users\halil\c_files\c_visual_studio_folder\NLayeredAppDemo\PubsDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\halil\c_files\c_visual_studio_folder\NLayeredAppDemo\PubsDataAccess\obj\Debug\PubsDataAccess.csproj.CopyComplete
+C:\Users\halil\c_files\c_visual_studio_folder\NLayeredAppDemo\PubsDataAccess\obj\Debug\PubsDataAccess.dll
+C:\Users\halil\c_files\c_visual_studio_folder\NLayeredAppDemo\PubsDataAccess\obj\Debug\PubsDataAccess.pdb

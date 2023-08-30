@@ -1,0 +1,14 @@
+C:\Users\halil\c_files\c_visual_studio_folder\NLayeredAppDemo\PubsBusiness\obj\Debug\PubsBusiness.csproj.AssemblyReference.cache
+C:\Users\halil\c_files\c_visual_studio_folder\NLayeredAppDemo\PubsBusiness\obj\Debug\PubsBusiness.csproj.CoreCompileInputs.cache
+C:\Users\halil\c_files\c_visual_studio_folder\NLayeredAppDemo\PubsBusiness\bin\Debug\PubsBusiness.dll
+C:\Users\halil\c_files\c_visual_studio_folder\NLayeredAppDemo\PubsBusiness\bin\Debug\PubsBusiness.pdb
+C:\Users\halil\c_files\c_visual_studio_folder\NLayeredAppDemo\PubsBusiness\bin\Debug\PubsDataAccess.dll
+C:\Users\halil\c_files\c_visual_studio_folder\NLayeredAppDemo\PubsBusiness\bin\Debug\PubsEntities.dll
+C:\Users\halil\c_files\c_visual_studio_folder\NLayeredAppDemo\PubsBusiness\bin\Debug\EntityFramework.dll
+C:\Users\halil\c_files\c_visual_studio_folder\NLayeredAppDemo\PubsBusiness\bin\Debug\PubsDataAccess.pdb
+C:\Users\halil\c_files\c_visual_studio_folder\NLayeredAppDemo\PubsBusiness\bin\Debug\PubsDataAccess.dll.config
+C:\Users\halil\c_files\c_visual_studio_folder\NLayeredAppDemo\PubsBusiness\bin\Debug\PubsEntities.pdb
+C:\Users\halil\c_files\c_visual_studio_folder\NLayeredAppDemo\PubsBusiness\bin\Debug\EntityFramework.xml
+C:\Users\halil\c_files\c_visual_studio_folder\NLayeredAppDemo\PubsBusiness\obj\Debug\PubsBusiness.csproj.CopyComplete
+C:\Users\halil\c_files\c_visual_studio_folder\NLayeredAppDemo\PubsBusiness\obj\Debug\PubsBusiness.dll
+C:\Users\halil\c_files\c_visual_studio_folder\NLayeredAppDemo\PubsBusiness\obj\Debug\PubsBusiness.pdb
