@@ -10,7 +10,7 @@ namespace PubsBusiness.Concrete
 {
     public class ProductManager
     {
-        ProductDal productDal = new ProductDal();
+        EfProductDal productDal = new EfProductDal();
         public List<Product> GetAll()
         {
             //Business code

@@ -1,4 +1,5 @@
-﻿using PubsEntities.Concrete;
+﻿using PubsDataAccess.Abstract;
+using PubsEntities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace PubsDataAccess.Concrete
 {
-    public class ProductDal
+    public class EfProductDal :IProductDal
     {
         public List<Product> GetAll()
         {
