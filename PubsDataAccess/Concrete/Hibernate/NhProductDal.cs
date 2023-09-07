@@ -3,6 +3,7 @@ using PubsEntities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,48 +11,50 @@ namespace PubsDataAccess.Concrete.Hibernate
 {
     public class NhProductDal : IProductDal
     {
-        public void Add(Product product)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Delete(int productId)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Product Get(int id)
-        {
-            throw new NotImplementedException();
-        }
-
         public List<Product> GetAll()
         {
-            List<Product> products = new List<Product>
+            using (PubsContext pubsContext = new PubsContext())
             {
-                new Product{
-                    ProductId=1,
-                    CategoryID=1,
-                    ProductName="Laptop",
-                    UnitPrice=3000, 
-                    QuantityPerUnit = "1 Stack in box ",
-                    UnitsInStock=11 
-                },
-                new Product
-                {
-                    ProductId=2,
-                    CategoryID=1,
-                    ProductName="Phone",
-                    UnitPrice=2000,
-                    QuantityPerUnit="One Phone in Box",
-                    UnitsInStock=8
-                }
-            };
+                return pubsContext.Products.ToList();
+            }
+        }
+        public Product Get(int id)
+        {
+            using (PubsContext pubsContext = new PubsContext())
+            {
+                return pubsContext.Products.SingleOrDefault(productInstance => productInstance.ProductId == id);
+            }
+        }
+        public void Add(Product product)
+        {
+            using (PubsContext pubsContext = new PubsContext())
+            {
+                pubsContext.Products.Add(product);
+                pubsContext.SaveChanges();
+            }
 
-            return products;
+        }
+        public void Update(Product product)
+        {
+            using (PubsContext pubsContext = new PubsContext())
+            {
+                pubsContext.SaveChanges();
+            }
+        }
+        public void Delete(int productId)
+        {
+
         }
 
-        public void Update(Product product)
+        public List<Product> GetAll(Expression<Func<Product, bool>> filter)
+        {
+            using (PubsContext context = new PubsContext())
+            {
+                return context.Products.ToList();
+            }
+        }
+
+        public void Delete(Product entity)
         {
             throw new NotImplementedException();
         }

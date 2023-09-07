@@ -3,6 +3,7 @@ using PubsEntities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -43,6 +44,24 @@ namespace PubsDataAccess.Concrete
         public void Delete(int productId)
         {
 
+        }
+
+        public List<Product> GetAll(Expression<Func<Product, bool>> filter)
+        {
+           using(PubsContext context = new PubsContext())
+            {
+                return context.Products.ToList();
+            }
+        }
+
+        public void Delete(Product entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Product Get(Expression<Func<Product, bool>> filter)
+        {
+            throw new NotImplementedException();
         }
     }
 }

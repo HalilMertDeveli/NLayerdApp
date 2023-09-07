@@ -1,4 +1,5 @@
-﻿using PubsBusiness.Concrete;
+﻿using PubsBusiness.Abstract;
+using PubsBusiness.Concrete;
 using PubsDataAccess.Concrete;
 using PubsDataAccess.Concrete.Hibernate;
 using System;
@@ -19,6 +20,8 @@ namespace PubsWebsFormUI
         {
             InitializeComponent();
         }
+        private IProductService _productService;
+        
 
         private void Form1_Load(object sender, EventArgs e)
         {

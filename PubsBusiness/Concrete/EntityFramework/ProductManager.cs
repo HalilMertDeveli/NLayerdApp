@@ -1,4 +1,5 @@
-﻿using PubsDataAccess.Abstract;
+﻿using PubsBusiness.Abstract;
+using PubsDataAccess.Abstract;
 using PubsDataAccess.Concrete;
 using PubsDataAccess.Concrete.Hibernate;
 using PubsEntities.Concrete;
@@ -10,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace PubsBusiness.Concrete
 {
-    public class ProductManager
+    public class ProductManager:IProductService
     {
         private IProductDal _productDal;
 
@@ -19,10 +20,12 @@ namespace PubsBusiness.Concrete
             _productDal = productDal;
         }
 
-        EfProductDal productDal = new EfProductDal();
         public List<Product> GetAll()
         {
+            //EfProductDal productDal = new EfProductDal();
+
             //Business code
+
             return _productDal.GetAll();
         }
     }
