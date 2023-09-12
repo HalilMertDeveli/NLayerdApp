@@ -54,6 +54,7 @@
     <Compile Include="Abstract\IEntityRepository.cs" />
     <Compile Include="Abstract\IProductDal.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="Concrete\EntityFramework\EfEntityRepositoryBase.cs" />
     <Compile Include="Concrete\EntityFramework\EfProductDal.cs" />
     <Compile Include="Concrete\EntityFramework\PubsContext.cs" />
     <Compile Include="Concrete\Hibernate\NhProductDal.cs" />

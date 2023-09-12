@@ -9,22 +9,10 @@ using System.Threading.Tasks;
 
 namespace PubsDataAccess.Concrete
 {
-    public class EfProductDal :IProductDal
+    public class EfProductDal : IProductDal
     {
-        public List<Product> GetAll()
-        {
-            using(PubsContext pubsContext = new PubsContext())
-            {
-                return pubsContext.Products.ToList();
-            }
-        }
-        public Product Get(int id)
-        {
-            using(PubsContext pubsContext = new PubsContext())
-            {
-                return pubsContext.Products.SingleOrDefault(productInstance => productInstance.ProductId == id);
-            }
-        }
+        
+        
         public void Add(Product product)
         {
             using(PubsContext pubsContext = new PubsContext())
@@ -48,9 +36,9 @@ namespace PubsDataAccess.Concrete
 
         public List<Product> GetAll(Expression<Func<Product, bool>> filter)
         {
-           using(PubsContext context = new PubsContext())
+            using (PubsContext pubsContext = new PubsContext())
             {
-                return context.Products.ToList();
+                return pubsContext.Products.ToList();
             }
         }
 
@@ -59,9 +47,30 @@ namespace PubsDataAccess.Concrete
             throw new NotImplementedException();
         }
 
+        
+
+        public List<Product> GetAll()
+        {
+            using (PubsContext context = new PubsContext())
+            {
+                return context.Products.ToList();
+            }
+        }
+
+        public Product Get(int id)
+        {
+            using (PubsContext pubsContext = new PubsContext())
+            {
+                return pubsContext.Products.SingleOrDefault(productInstance => productInstance.ProductId == id);
+            }
+        }
+
         public Product Get(Expression<Func<Product, bool>> filter)
         {
-            throw new NotImplementedException();
+            using (PubsContext pubsContext = new PubsContext())
+            {
+                return pubsContext.Products.SingleOrDefault(filter);
+            }
         }
     }
 }
